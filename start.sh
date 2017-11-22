@@ -21,5 +21,5 @@ elif [ "$ROLE" = "MASTER" ]; then
 else
 	echo " >>> Run as UNKNOWN Role, this is not supposed to triggered as 1st invoking redis"
         redis-server
-        echo " >>> Finished
+        echo " >>> Finished"
 fi
